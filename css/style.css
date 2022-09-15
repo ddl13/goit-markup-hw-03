@@ -69,6 +69,10 @@ a {
   font-family: inherit;
 }
 /* general header */
+
+.page-header {
+  border-bottom: 3px solid var(--border-color);
+}
 .page-header-logo {
   color: var(--dark-logo-color);
 
@@ -87,12 +91,24 @@ a {
   align-items: center;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
+}
+
+.site-nav .item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link {
@@ -115,6 +131,7 @@ a {
 
 .header-address {
   display: flex;
+  margin-left: auto;
 }
 
 .header-address .item + .item {
@@ -158,6 +175,7 @@ a {
 
 .footer-logo {
   margin-bottom: 20px;
+  display: block;
 
   color: var(--primary-color);
   font-family: "Raleway";
@@ -223,6 +241,7 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border: 0px;
 }
 
 /* About company section */

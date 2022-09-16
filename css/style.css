@@ -71,7 +71,7 @@ a {
 /* general header */
 
 .page-header {
-  border-bottom: 3px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 .page-header-logo {
   color: var(--dark-logo-color);
@@ -266,6 +266,11 @@ a {
 
 .advantages-of-company {
   width: 270px;
+  height: 72px;
+}
+
+.advantages-of-company-48 {
+  height: 48px;
 }
 
 /* What do we do section */
@@ -290,6 +295,11 @@ a {
   text-align: center;
 }
 
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Our team section */
 .our-team {
   background-color: var(--secondary-background-color);
@@ -304,6 +314,11 @@ a {
 
 .our-team-list {
   display: flex;
+}
+
+.our-team-list .item {
+  text-align: center;
+  background-color: var(--primary-color);
 }
 
 .our-team-list .item:not(:last-child) {
@@ -324,7 +339,7 @@ a {
 .worker-description {
   margin-bottom: 30px;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 /* portfolio */
 
@@ -356,8 +371,9 @@ a {
 }
 
 .portfolio-characteristic {
-  padding: 20px, 24px;
+  padding: 24px 20px;
   border: 1px solid var(--border-color);
+  border-top: none;
 }
 
 .portfolio-section .section-title {

@@ -64,6 +64,12 @@ p {
 a {
   text-decoration: none;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .button {
   cursor: pointer;
   font-family: inherit;
@@ -266,11 +272,7 @@ a {
 
 .advantages-of-company {
   width: 270px;
-  height: 72px;
-}
-
-.advantages-of-company-48 {
-  height: 48px;
+  line-height: 1.71;
 }
 
 /* What do we do section */
